@@ -19,10 +19,14 @@ class InsertionSort {
         System.out.println("Array before sorting:");
         printArray(arr);
 
-        insertionSort(arr);
+        sort(arr);
 
         System.out.println("Array after sorting:");
         printArray(arr);
+    }
+
+    public static void sort(int[] arr) {
+        insertionSort(arr);
     }
 
     public static void printArray(int[] arr) {
